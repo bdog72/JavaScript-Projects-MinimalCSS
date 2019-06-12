@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import '../node_modules/rfs/scss';
+/* @import './node_modules/bootstrap/dist/css/bootstrap.min.css'; */
+
+body {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#cfe7fa+0,6393c1+100;Grey+Blue+3D */
+  background: rgb(207, 231, 250); /* Old browsers */
+  background: -moz-linear-gradient(
+    left,
+    rgba(207, 231, 250, 1) 0%,
+    rgba(99, 147, 193, 1) 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    left,
+    rgba(207, 231, 250, 1) 0%,
+    rgba(99, 147, 193, 1) 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to right,
+    rgba(207, 231, 250, 1) 0%,
+    rgba(99, 147, 193, 1) 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cfe7fa', endColorstr='#6393c1',GradientType=1 ); /* IE6-9 */
+
+  font-family: 'Roboto', sans-serif;
+}
