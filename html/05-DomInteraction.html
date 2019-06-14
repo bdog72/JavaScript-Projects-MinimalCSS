@@ -5,11 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="/styles/05-DomInteraction.css" />
-    <title>DOM Interaction</title>
+
+    <title>Dom Interaction</title>
   </head>
   <body>
-    <div>Hello World</div>
-    <input type="text" name="outputText" value="Bozo" />
+    Add Element:
+    <select name="addElement"></select>
+    <button name="adder">Add</button>
+    <br />
+    Select Element
+    <select name="eleMaker"></select>
+    <br />
+    Inner Text :
+    <input type="text" name="outputText" value="Laurence" />
     <br />
     Background :
     <input type="color" name="bg" value="#ffffff" />
@@ -21,6 +29,11 @@
     <select name="classes"></select>
     <br />
     <button class="btn">Update</button>
+    <div id="main">
+      <div>Hello World</div>
+      <p>Laurence</p>
+      <span>JavaScript</span>
+    </div>
     <script src="/js/05-DomInteraction.js"></script>
   </body>
 </html>
